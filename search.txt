@@ -1,0 +1,74 @@
+SOLAR SYSTEM SIMULATOR (UNITY)
+* Planets: {[SIZE] | [DISTANCE FROM SUN] | [TRANSLATION
+SPEED] | [ROTATION SPEED] | [ROTATION ANGLE (in degrees)]}
+
+- Natural Satellites: {[SIZE] | [DISTANCE FROM PLANET]
+[TRANSLATION SPEED] | [ROTATION SPEED] | [ROTATION ANGLE (in
+degrees)]}
+
+(Note: the planets size and distance are aproximated and/or
+adapted for a dinamic simulation)
+
+"real" value -> value in simulator
+* = in progress
+** = already included
+
+One AU (astronomical unit) is about 150Mkm (earth from sun
+distance)
+
+Velocidade de Rotacão = circunferência equatorial / período
+de rotação
+
+Sun escale -> 8,8,8
+
+ ●   Mercury {5km -> 0.4 | 70Mkm -> 5.5 | 48Km/s -> 24 | 10.9Km/h -> 6 |
+     0.034 }
+
+ ●   Venus { 11.4Km -> 0.85 | 67Mkm -> 7 | 35km/s -> 17 | 6,5Km/h -> 4 |
+     177.4 }
+
+ ●   Earth { 12k -> 1 | 150Mkm -> 9.5 | 30Km/s -> 15s | 1,6Km/h -> 10 |
+     23.44 }
+
+ – **Moon { 3.5Km -> 0.27 | 384,4Km -> 1.4px | 3.7Km/h -> 10s | 1Km/s
+     -> 5 | 6,68 }
+
+
+ ●   Mars { 6Km -> 0.5 | 225Mkm -> 11.5 | 24Km/s -> 12 | 866Km/h -> 40 |
+     25.2 }
+
+
+ ●   Jupiter { 132Km -> 3.5 | 780Mkm -> 15 | 13Km/s -> 7 | 45.3Km/h ->
+     22 | 3.1 }
+
+ – Io {}
+ – Europa {}
+ – Ganymede {}
+ – Callisto {}
+
+ ●   Saturn { 108Km -> 2.9 | 1.4Bkm -> 20.5 | 9.7Km/s -> 5 | 37Km/h -> 17 |
+     26.7 }
+
+ – Titan
+
+ ●   Uranus { 48Km -> ? | 3Bkm -> 25,5 | 6.8Km/s -> 4 | 9,3Km/h -> 5 |
+     97.8 -> 95 }
+
+ –   Miranda {}
+ –   Ariel {}
+ –   Umbriel {}
+ –   Titânia {}
+ –   Oberon {}
+
+ ●   Neptune { 47.1Km -> ? | 4,5BKm -> 29 | 5.43Km/s -> 3 | 9.8Km/h -> 5
+     | 28.3 }
+
+ – Triton {}
+
+ ●   Plutão { | | | }
+
+
+Finished
+Planets (9/9)
+Natural Satellites (1/11)
+
