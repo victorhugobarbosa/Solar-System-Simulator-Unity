@@ -1,5 +1,11 @@
 SOLAR SYSTEM SIMULATOR (UNITY)
 
+Victor Hugo Barbosa dos Santos - 22152
+Pedro Henrique Batista Nunes - 22147
+
+- Research carried out by us to define the scales and distances of the planets in the simulation
+
+
 ----------------------INFORMATIONS--------------------------------
 
 * Planets: {[SIZE] | [DISTANCE FROM SUN] | [TRANSLATION SPEED] | [ROTATION SPEED] | [ROTATION ANGLE (in degrees)]}
@@ -55,8 +61,7 @@ Sun escale -> 8,8,8
  ●   Pluto { 2.4Km | 6BKm | 17Km/h | 47.2Km/h | 122 }
 
 
--------------------------------------------------------------------
-Red Dwarf System:
+-------------------------RED DWARF---------------------------------
 Red dwarf escales -> 5,5,5
 
  ● Gwyn
