@@ -4,6 +4,7 @@ using System.Collections;
 public class ChangeLookAtTarget : MonoBehaviour {
 
 	public GameObject target; // the target that the camera should look at
+	private static AudioSource currentAudioSource; // Keeps track of the current playing AudioSource
 
 	void Start() {
 		if (target == null) 
