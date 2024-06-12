@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51568
+49481
 Successfully changed project path to: /Users/u22152/Documents/GitHub/Solar-System-Simulator-Unity/Sistema-Solar 2
 /Users/u22152/Documents/GitHub/Solar-System-Simulator-Unity/Sistema-Solar 2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/u22152/Documents/GitHub/Solar-Syste
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7973624896] Host "[IP] 177.220.18.76 [Port] 0 [Flags] 2 [Guid] 22982146 [EditorId] 22982146 [Version] 1048832 [Id] OSXEditor(0,LAPA34.academico.cotuca.unicamp.br) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8006130752] Host "[IP] 177.220.18.76 [Port] 0 [Flags] 2 [Guid] 2116771225 [EditorId] 2116771225 [Version] 1048832 [Id] OSXEditor(0,LAPA34.academico.cotuca.unicamp.br) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7973624896] Host "[IP] 177.220.18.76 [Port] 0 [Flags] 2 [Guid] 22982146 [EditorId] 22982146 [Version] 1048832 [Id] OSXEditor(0,LAPA34.academico.cotuca.unicamp.br) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8006130752] Host "[IP] 177.220.18.76 [Port] 0 [Flags] 2 [Guid] 2116771225 [EditorId] 2116771225 [Version] 1048832 [Id] OSXEditor(0,LAPA34.academico.cotuca.unicamp.br) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 6.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 10.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,49 +76,49 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56485
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56202
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004840 seconds.
-- Loaded All Assemblies, in  0.243 seconds
+Registered in 0.003583 seconds.
+- Loaded All Assemblies, in  0.244 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 73 ms
+Android Extension - Scanning For ADB Devices 68 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.292 seconds
-Domain Reload Profiling: 535ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 517ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
+		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (106ms)
-		LoadAssemblies (72ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (292ms)
+	FinalizeReload (273ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (254ms)
+		SetupLoadedEditorAssemblies (236ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (162ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (148ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (63ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,7 +126,7 @@ Domain Reload Profiling: 535ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.435 seconds
+- Loaded All Assemblies, in  0.419 seconds
 Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -136,48 +136,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.350 seconds
-Domain Reload Profiling: 786ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (208ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (185ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (351ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (233ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (172ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (179ms)
 			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (51.0 KB). Loaded Objects now: 3561.
-Memory consumption went from 132.8 MB to 132.7 MB.
-Total: 2.389500 ms (FindLiveObjects: 0.107625 ms CreateObjectMapping: 0.038459 ms MarkObjects: 2.171416 ms  DeleteObjects: 0.071042 ms)
+Unloading 32 unused Assets / (51.4 KB). Loaded Objects now: 3561.
+Memory consumption went from 131.8 MB to 131.8 MB.
+Total: 2.358500 ms (FindLiveObjects: 0.101167 ms CreateObjectMapping: 0.037958 ms MarkObjects: 2.142417 ms  DeleteObjects: 0.076250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -194,65 +194,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20351.328540 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(f9bad018c6b20425ab60eed79d71109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(f9bad018c6b20425ab60eed79d71109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3b92ed92949557e730726d0fbeca57') in 0.002022 seconds
+  Time since last request: 580.551388 seconds.
+  path: Assets/Scenes/SistemaSolar.unity
+  artifactKey: Guid(8a8b310e04d4a466585dd42f62ca88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SistemaSolar.unity using Guid(8a8b310e04d4a466585dd42f62ca88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c4cd73102ab0ff7a812cadb3140345') in 0.001084 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 40.300560 seconds.
-  path: Assets/Materials/material Gwyn.mat
-  artifactKey: Guid(fb38a9c8cb50749ebbce93ce2dced4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/material Gwyn.mat using Guid(fb38a9c8cb50749ebbce93ce2dced4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e6c868f647ab1166e1292efad2394d') in 0.050185 seconds
+  Time since last request: 464.454100 seconds.
+  path: Assets/Scripts/ChangeLookAtTarget.cs
+  artifactKey: Guid(b32764f2781944085917a8579899789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeLookAtTarget.cs using Guid(b32764f2781944085917a8579899789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74700cbf9e892fb6fe385d369edbd7') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1587.266729 seconds.
+  path: Assets/Sounds/Beethoven - Moonlight Sonata (FULL).mp3
+  artifactKey: Guid(683c18c5b9a08449eaab5d0bf450d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Beethoven - Moonlight Sonata (FULL).mp3 using Guid(683c18c5b9a08449eaab5d0bf450d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1aee99aeefcc8c1ce8bfe1d48fcde7') in 0.083076 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1491.389901 seconds.
-  path: Assets/Textures/cheese.png
-  artifactKey: Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/cheese.png using Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912c099c3f465af50883401435d322e2') in 0.016596 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sounds/Gwyndolin Soundtrack.mp3
+  artifactKey: Guid(d4d3d5d04aff7424cabf81f3109de4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Gwyndolin Soundtrack.mp3 using Guid(d4d3d5d04aff7424cabf81f3109de4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29afa174b8f5215154a9bc56170722bf') in 0.004393 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 62.891697 seconds.
-  path: Assets/Materials/material Mi Ka'el.mat
-  artifactKey: Guid(8aaa59ff0df5c43f49c58d8a264f20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/material Mi Ka'el.mat using Guid(8aaa59ff0df5c43f49c58d8a264f20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c21c9146b3a5a04c62178131eaa60c') in 0.005001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.540422 seconds.
-  path: Assets/Materials/material Mi Kha'El.mat
-  artifactKey: Guid(8aaa59ff0df5c43f49c58d8a264f20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/material Mi Kha'El.mat using Guid(8aaa59ff0df5c43f49c58d8a264f20b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246fe8b72a3c133693df4c7dc9ce4dfc') in 0.005649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 27.523297 seconds.
-  path: Assets/Textures/Mi Kha'El.png
-  artifactKey: Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Mi Kha'El.png using Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d75a84e44745a72090dc1d916ddca6b') in 0.004451 seconds
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sounds/dronedarkandscary.aif
+  artifactKey: Guid(06b53fafc6e274dd7995045220ef5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/dronedarkandscary.aif using Guid(06b53fafc6e274dd7995045220ef5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8661c3d94af75c58ed442550a2585179') in 0.002964 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 286.834313 seconds.
-  path: Assets/Textures/mi.jpg
-  artifactKey: Guid(14b9e55a26eaa4d90b1c642efc9b6351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/mi.jpg using Guid(14b9e55a26eaa4d90b1c642efc9b6351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d0971c3f20e3c6a66ad2d7a6c4644d') in 0.009333 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sounds/Gwynevere Soundtrack.mp3
+  artifactKey: Guid(40ae8441305cae74ba87f9b86c8fe416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Gwynevere Soundtrack.mp3 using Guid(40ae8441305cae74ba87f9b86c8fe416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b30371324def34f8e788fb656150c1') in 0.003328 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 97.236562 seconds.
-  path: Assets/Textures/Mi Kha'El.png
-  artifactKey: Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Mi Kha'El.png using Guid(9a65a6e8946c843ac903cacea158da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca7ad011b8761698747fd7b4b329358') in 0.008331 seconds
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sounds/Tomita Planets - Mars.mp3
+  artifactKey: Guid(0070c30d9138f49dcb268d486c563870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Tomita Planets - Mars.mp3 using Guid(0070c30d9138f49dcb268d486c563870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059bf6bbd876f28cb9a9fed9499cb952') in 0.003213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sounds/Tomita Planets - Neptune.mp3
+  artifactKey: Guid(4471f385d070249a1bd88e9313f5ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Tomita Planets - Neptune.mp3 using Guid(4471f385d070249a1bd88e9313f5ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b8518544760b20f2057baf97c664cd') in 0.002893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sounds/Tomita Planets - Uranus.mp3
+  artifactKey: Guid(304e0db4377b04976b45a01014dd23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Tomita Planets - Uranus.mp3 using Guid(304e0db4377b04976b45a01014dd23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4acbf11682f640cf44f11e987641df3') in 0.003324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sounds/Helix_Nebula.mp3
+  artifactKey: Guid(da26c9a4789e70746a6af591c7e36b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Helix_Nebula.mp3 using Guid(da26c9a4789e70746a6af591c7e36b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7f8f203cb215287aa8b845ffba7556') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sounds/Tomita Planets - Saturn.mp3
+  artifactKey: Guid(73d229b3c3c1747a2b80ec6999b158f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Tomita Planets - Saturn.mp3 using Guid(73d229b3c3c1747a2b80ec6999b158f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3135da1836c5b506f664b64601514b') in 0.002996 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
